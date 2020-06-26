@@ -1,0 +1,16 @@
+<style media="screen">
+  li {
+    background-color: wheat;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 50%;
+    font-family: sans-serif;
+  }
+</style>
+<h1>Here is the list of all Ben and Jerrys Icecreams YUMYUMYUM!</h1>
+
+<ul>
+{{#each icecreams}}
+  <li>Name: {{name}}, Price: {{price}}, Awesomeness: {{awesomeness}}</li>
+{{/each}}
+</ul>
